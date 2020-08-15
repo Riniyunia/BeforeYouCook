@@ -38,7 +38,7 @@ class MealItem extends HTMLElement {
         }
 
         #mealList h2 {
-            color: black;
+            color: #fcc133;
             font-size: 30px;
         }
 
@@ -73,6 +73,7 @@ class MealItem extends HTMLElement {
             text-align: justify;
             padding-right: 5%;
             padding-left: 5%;
+            font-size: 16px;
         }
 
         .placeholder {
@@ -91,23 +92,19 @@ class MealItem extends HTMLElement {
         }
 
         @media screen and (max-width: 550px){
+            #mealList h2 {
+                font-size: 24px;
+            }
+
+            .meal-info h3 {
+                font-size: 18px;
+            }
         }
-
         </style>
-
-        <script type="javascript/text">
-            let newProperty = {}
-
-            Property.keys(this._meal).forEach(function(key) {
-            if (this._meal[key] !== null)
-            newProperty[key] = this._meal[key];
-            });
-        
-        </script>
 
 
         <div id="mealList">
-            <div class="col-sm-12 col-md-12 col-lg-12" style="margin-top: 25px;">
+            <div class="col-sm-6 col-md-12 col-lg-12" style="margin-top: 25px;">
                 <div class="card">
                     <div class="card-body">
                         <img class="meal-image" src="${this._meal.strMealThumb}" alt="Fan Art">
