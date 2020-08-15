@@ -65,6 +65,33 @@ class MealItem extends HTMLElement {
             padding-bottom: 30px;
         }
 
+        .box{
+            height: auto;
+            width: 100%;
+            background-color: transparent;
+            display: none;
+        }
+         
+        #recipeButton,
+        #recipeButton2{
+            padding: 10px;
+            color: #fcc133;
+            background-color: black;
+            outline: none;
+            border: none;
+            border-radius: 8px;
+        }
+
+        #recipeButton:active {
+            color: black;
+            background-color: #fcc133;
+        }
+
+        #recipeButton2:active{
+            color: black;
+            background-color: #fcc133;
+        }
+
         .meal-ins {
             padding-top: 10px;
         }
@@ -109,6 +136,8 @@ class MealItem extends HTMLElement {
                     <div class="card-body">
                         <img class="meal-image" src="${this._meal.strMealThumb}" alt="Fan Art">
                         <h2> ${this._meal.strMeal} </h2>
+                        <button id="recipeButton">SEE RECIPE</button>	
+	                    <div class="box">
                         <div class="meal-info"> 
                             <h3> INGREDIENTS </h3>
                             <div class="meal-ingredients>
@@ -139,6 +168,7 @@ class MealItem extends HTMLElement {
                                 <h3>INSTRUCTIONS</h3>
                                 <p> ${this._meal.strInstructions} </p>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
