@@ -129,6 +129,13 @@ class MealItem extends HTMLElement {
         }
         </style>
 
+        <script type="text/javascript">
+	        $(document).ready(function(){
+		        $('#tombol').click(function(){
+			         $('.box').toggle();
+		        });		
+	        });
+        </script>
 
         <div id="mealList">
             <div class="col-sm-6 col-md-12 col-lg-12" style="margin-top: 25px;">
