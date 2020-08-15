@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #c7ea46;
+}
+
+.pict-area {
+    background: url('../18880.jpg') no-repeat center fixed;     
+    background-size: cover;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.pict-area h1 {
+    font-family: 'Rubik';
+    font-size: 64px;
+    color: #c7ea46;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.pict-area h2 {
+    font-size: 48px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    padding-bottom: 5px;
+}
+
+.pict-area p {
+    font-size: 28px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+
+
+@media screen and (max-width: 550px){
+
+    .pict-area h1 {
+        font-size: 40px;
+    }
+
+    .pict-area h2 {
+        font-size: 22px;
+    }
+
+    .pict-area p {
+        font-size: 18px;
+        font-style: italic;
+    }
+}
