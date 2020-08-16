@@ -2,11 +2,6 @@
     padding: 10px;
     width: 100%;
     background-color: #fcc133;
-    color: black;
-    position: sticky;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
 }
 
 .header-bar h2 {
@@ -17,7 +12,11 @@
     padding-left: 30px;
 }
 
-
+.header-bar a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 
   @media screen and (max-width: 550px){
     .header-left h2 {
