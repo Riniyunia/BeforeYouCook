@@ -38,6 +38,7 @@ class MealItem extends HTMLElement {
         }
 
         #mealList h2 {
+            padding-top: 10px;
             color: #fcc133;
             font-size: 30px;
         }
@@ -65,7 +66,7 @@ class MealItem extends HTMLElement {
             padding-bottom: 30px;
         }
 
-        .meal-ins {
+        .meal-info h3 {
             padding-top: 10px;
         }
 
@@ -103,14 +104,13 @@ class MealItem extends HTMLElement {
         </style>
 
         <div id="mealList">
-            <div class="col-sm-6 col-md-12 col-lg-12" style="margin-top: 25px;">
-                <div class="card">
+                <div class="card" style="margin-top: 25px;">
                     <div class="card-body">
                         <img class="meal-image" src="${this._meal.strMealThumb}" alt="Fan Art">
                         <h2> ${this._meal.strMeal} </h2>
                         <div class="meal-info"> 
                             <h3> INGREDIENTS </h3>
-                            <div class="meal-ingredients>
+                            <div class="meal-ing">
                                 <ul>
                                     <li class="ingredients i1"><p>${this._meal.strMeasure1} ${this._meal.strIngredient1}</p></li>
                                     <li class="ingredients i2"><p>${this._meal.strMeasure2} ${this._meal.strIngredient2}</p></li>
@@ -139,7 +139,6 @@ class MealItem extends HTMLElement {
                                 <p> ${this._meal.strInstructions} </p>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
