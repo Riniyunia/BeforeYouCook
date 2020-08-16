@@ -144,15 +144,6 @@ class MealItem extends HTMLElement {
             </div>
         </div>
 
-        <script type="text/javascript">
-            function (this._meal.key, this._meal.value) {
-              if (this._meal.value === null) {
-                  this._meal.value = "1";
-                  return();
-              }
-            }
-        </script>
-
         `;
     }
 }

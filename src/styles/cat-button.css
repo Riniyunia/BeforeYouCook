@@ -1,0 +1,31 @@
+#catRow li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 8px;
+}
+
+#catRow button {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+    border: 0.5px solid whitesmoke;
+    color:#fcc133;
+    cursor: pointer;
+}
+
+#catRow button:hover {
+    background-color: black
+}
+
+@media screen and (max-width: 550px){
+    #catRow li {
+        padding-right: 2px;
+    }
+
+    #catRow button {
+        font-size: 14px;
+        padding: 5px 6px;
+    }
+}

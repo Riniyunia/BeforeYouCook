@@ -1,6 +1,6 @@
-class RandomMeal {
-    static searchRandomMeal() {
-        return fetch(`https://www.themealdb.com/api/json/v1/1/random.php`)
+class CakeMeal {
+    static searchCakeMeal() {
+        return fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=Cake`)
         .then(response => {
             return response.json();
         }) 
@@ -12,4 +12,4 @@ class RandomMeal {
    }
 }
 
-export default RandomMeal;
+export default CakeMeal;

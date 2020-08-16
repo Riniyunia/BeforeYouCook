@@ -2,6 +2,9 @@
     padding: 10px;
     width: 100%;
     background-color: #fcc133;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
 }
 
 .header-bar h2 {

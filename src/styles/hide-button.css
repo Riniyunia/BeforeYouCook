@@ -1,5 +1,5 @@
 .box{
-	height: 90px;
+	height: 10px;
 	width: 300px;
 	background-color: transparent;
 	display: none;
@@ -15,15 +15,16 @@
     outline: none;
     padding: 16px;
     cursor: pointer;
-    margin-left: -40px;
+    margin-left: -17px;
+    text-decoration: underline
 }
 
 #hideButton:hover, #hidebutton2:hover {
-    text-decoration: underline;
+    color: #c7ea46;
 }
 
 #hideButton:active, #hidebutton2:active {
-    text-decoration: underline;
+    color: #c7ea46;
 }
 
 @media screen and (max-width: 550px){
@@ -35,13 +36,14 @@
     #hideButton,
     #hideButton2{
         font-size: 18px;
-        margin-left: 30px;
+        margin-left: -10px;
+        text-align: left;
     }
 }
 
 @media screen and (max-width: 1000px){
     #hideButton,
     #hideButton2{
-        margin: -40px;
+        text-align: left;
     }
 }

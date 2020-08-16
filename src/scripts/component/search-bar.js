@@ -82,18 +82,7 @@ class SearchBar extends HTMLElement {
         <div id="search-container" class="search-container">
                  <input placeholder="Let's cook..." id="searchForm" type="search">
                  <button id="searchButtonField" type="submit">Search</button>
-        </div>
-        
-        /*<script type="text/javascript">
-            const searchFormInput = {}
-            function valid_input(input){
-                 if (searchFormInput.value == null){
-                    searchFormInput.focus();
-                    return (false);
-                 }
-
-        </script>*/
-        `;
+        </div>`;
 
         this.shadowDOM.querySelector("#searchButtonField").addEventListener('click', this._clickEvent);
     }
