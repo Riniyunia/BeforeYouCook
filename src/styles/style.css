@@ -9,12 +9,11 @@
 
 body {
     font-family: sans-serif;
-    background-color: #c7ea46;
+    background: url('../18880.jpg') no-repeat center fixed;     
+    background-size: cover;
 }
 
 .pict-area {
-    background: url('../18880.jpg') no-repeat center fixed;     
-    background-size: cover;
     padding: 20px 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -39,8 +38,6 @@ body {
     color: whitesmoke;
     text-shadow: 2px 2px black;
 }
-
-
 
 @media screen and (max-width: 550px){
 

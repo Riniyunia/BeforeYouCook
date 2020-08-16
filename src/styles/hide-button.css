@@ -1,0 +1,44 @@
+.box{
+	height: 90px;
+	width: 300px;
+	background-color: transparent;
+	display: none;
+}
+ 
+#hideButton,
+#hideButton2{
+    font-family: 'Rubik';
+    font-size: 24px;
+	color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 16px;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+#hideButton:hover, #hidebutton2:hover {
+    text-decoration: underline;
+}
+
+#hideButton:active, #hidebutton2:active {
+    text-decoration: underline;
+}
+
+#randomButton {
+    padding: 16px;
+    background-color: #fcc133;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rubik';
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+
+#randomButton:active {
+    background-color: black;
+    color: #fcc133;
+}
