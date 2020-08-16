@@ -67,7 +67,8 @@ class MealItem extends HTMLElement {
         }
 
         .meal-info h3 {
-            padding-top: 10px;
+            padding-top: 16px;
+            padding-bottom: 5px;
         }
 
         .meal-ins p {
