@@ -38,6 +38,12 @@ class MealButton extends HTMLElement {
             color: #fcc133;
         }
 
+        #randomButton:hover {
+            background-color: black;
+            color: #fcc133;
+            opacity: 0.8;
+        }
+
         @media screen and (max-width: 550px){
             
             #randomButton{

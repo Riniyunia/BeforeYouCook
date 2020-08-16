@@ -50,6 +50,12 @@ class SearchBar extends HTMLElement {
             outline: none;
         }
 
+        .search-container > button:hover {
+            background-color: black;
+            color: #fcc133;
+            opacity: 0.8;
+        }
+
         .search-container > button:active {
             background-color: black;
             color: #fcc133;
