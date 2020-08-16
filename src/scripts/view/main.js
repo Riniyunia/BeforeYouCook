@@ -15,6 +15,12 @@ const main = () => {
         .catch(fallbackResult)
     };
 
+    const onButtonRandomClicked = () => {
+        RandomMeal.searchRandomMeal(randomButton)
+        .then(renderResult)
+        .catch(fallbackResult)
+    };
+
     const renderResult = results => {
         mealListElement.meals = results;
     };
@@ -24,6 +30,7 @@ const main = () => {
     };
 
     searchForm.clickEvent = onButtonSearchClicked;
+    randomButton.clickEvent = onButtonRandomClicked;
 };
 
 export default main;

@@ -15,7 +15,7 @@ class MealButton extends HTMLElement {
     }
 
     get value() {
-        return this.shadowDOM.querySelector("#randomButton").value;
+        return this.shadowDOM.querySelector("#randomButton").clickEvent;
     }
 
     render() {
