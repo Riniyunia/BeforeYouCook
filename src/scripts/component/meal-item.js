@@ -97,7 +97,7 @@ class MealItem extends HTMLElement {
             }
 
             .meal-info h3 {
-                font-size: 18px;
+                font-size: 16px;
             }
         }
         </style>
