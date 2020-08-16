@@ -33,7 +33,7 @@ class PuddingButton extends HTMLElement {
         }
         
         #puddingButton:hover {
-            background-color: black
+            background-color: black;
         }
 
         @media screen and (max-width: 550px){

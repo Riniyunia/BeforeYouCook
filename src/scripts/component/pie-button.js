@@ -33,7 +33,7 @@ class PieButton extends HTMLElement {
         }
         
         #pieButton:hover {
-            background-color: black
+            background-color: black;
         }
 
         @media screen and (max-width: 550px){

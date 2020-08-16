@@ -38,6 +38,12 @@ body {
     text-shadow: 2px 2px black;
 }
 
+#catRow li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 8px;
+}
+
 footer{
     margin-top: 60px;
     margin-bottom: 15px;
@@ -67,5 +73,9 @@ footer p {
     .pict-area p {
         font-size: 18px;
         font-style: italic;
+    }
+
+    #catRow li {
+        padding-right: 2px;
     }
 }

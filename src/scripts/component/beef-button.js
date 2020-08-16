@@ -33,7 +33,7 @@ class BeefButton extends HTMLElement {
         }
         
         #beefButton:hover {
-            background-color: black
+            background-color: black;
         }
 
         @media screen and (max-width: 550px){
