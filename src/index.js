@@ -6,7 +6,7 @@ import "./18880.jpg";
 import main from "./scripts/view/main.js";
 
 $(document).ready(function(){
-    $('#recipeButton').click(function(){
+    $('#hideButton').click(function(){
         $('.box').toggle();
     });		
 });
