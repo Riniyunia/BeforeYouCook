@@ -104,6 +104,16 @@ class MealItem extends HTMLElement {
         }
         </style>
 
+        <script type="text/javascript">
+                                 nullcheck(data) {
+                                   if(data !== null) {
+                                     return data;
+                                   } else {
+                                     return ''
+                                   }
+                                 }
+        </script>
+
         <div id="mealList">
                 <div class="card" style="margin-top: 25px;">
                     <div class="card-body">
@@ -113,26 +123,26 @@ class MealItem extends HTMLElement {
                             <h3> INGREDIENTS </h3>
                             <div class="meal-ing">
                                 <ul>
-                                    <li class="ingredients i1"><p>${this._meal.strMeasure1} ${this._meal.strIngredient1}</p></li>
-                                    <li class="ingredients i2"><p>${this._meal.strMeasure2} ${this._meal.strIngredient2}</p></li>
-                                    <li class="ingredients i3"><p>${this._meal.strMeasure3} ${this._meal.strIngredient3}</p></li>
-                                    <li class="ingredients i4"><p>${this._meal.strMeasure4} ${this._meal.strIngredient4}</p></li>
-                                    <li class="ingredients i5"><p>${this._meal.strMeasure5} ${this._meal.strIngredient5}</p></li>
-                                    <li class="ingredients i6"><p>${this._meal.strMeasure6} ${this._meal.strIngredient6}</p></li>
-                                    <li class="ingredients i7"><p>${this._meal.strMeasure7} ${this._meal.strIngredient7}</p></li>
-                                    <li class="ingredients i8"><p>${this._meal.strMeasure8} ${this._meal.strIngredient8}</p></li>
-                                    <li class="ingredients i9"><p>${this._meal.strMeasure9} ${this._meal.strIngredient9}</p></li>
-                                    <li class="ingredients i10"><p>${this._meal.strMeasure10} ${this._meal.strIngredient10}</p></li>
-                                    <li class="ingredients i11"><p>${this._meal.strMeasure11} ${this._meal.strIngredient11}</p></li>
-                                    <li class="ingredients i12"><p>${this._meal.strMeasure12} ${this._meal.strIngredient12}</p></li>
-                                    <li class="ingredients i13"><p>${this._meal.strMeasure13} ${this._meal.strIngredient13}</p></li>
-                                    <li class="ingredients i14"><p>${this._meal.strMeasure14} ${this._meal.strIngredient14}</p></li>
-                                    <li class="ingredients i15"><p>${this._meal.strMeasure15} ${this._meal.strIngredient15}</p></li>
-                                    <li class="ingredients i16"><p>${this._meal.strMeasure16} ${this._meal.strIngredient16}</p></li>
-                                    <li class="ingredients i17"><p>${this._meal.strMeasure17} ${this._meal.strIngredient17}</p></li>
-                                    <li class="ingredients i18"><p>${this._meal.strMeasure18} ${this._meal.strIngredient18}</p></li>
-                                    <li class="ingredients i19"><p>${this._meal.strMeasure19} ${this._meal.strIngredient19}</p></li>
-                                    <li class="ingredients i20"><p>${this._meal.strMeasure20} ${this._meal.strIngredient20}</p></li>
+                                <li class="ingredients i1"><p>${this.nullCheck(this._meal.strMeasure1)} ${this.nullCheck(this._meal.strIngredient1)}</p></li>
+                                <li class="ingredients i2"><p>${this.nullCheck(this._meal.strMeasure2)} ${this.nullCheck(this._meal.strIngredient2)}</p></li>
+                                <li class="ingredients i3"><p>${this.nullCheck(this._meal.strMeasure3)} ${this.nullCheck(this._meal.strIngredient3)}</p></li>
+                                <li class="ingredients i4"><p>${this.nullCheck(this._meal.strMeasure4)} ${this.nullCheck(this._meal.strIngredient4)}</p></li>
+                                <li class="ingredients i5"><p>${this.nullCheck(this._meal.strMeasure5)} ${this.nullCheck(this._meal.strIngredient5)}</p></li>
+                                <li class="ingredients i6"><p>${this.nullCheck(this._meal.strMeasure6)} ${this.nullCheck(this._meal.strIngredient6)}</p></li>
+                                <li class="ingredients i7"><p>${this.nullCheck(this._meal.strMeasure7)} ${this.nullCheck(this._meal.strIngredient7)}</p></li>
+                                <li class="ingredients i8"><p>${this.nullCheck(this._meal.strMeasure8)} ${this.nullCheck(this._meal.strIngredient8)}</p></li>
+                                <li class="ingredients i9"><p>${this.nullCheck(this._meal.strMeasure9)} ${this.nullCheck(this._meal.strIngredient9)}</p></li>
+                                <li class="ingredients i10"><p>${this.nullCheck(this._meal.strMeasure10)} ${this.nullCheck(this._meal.strIngredient10)}</p></li>
+                                <li class="ingredients i11"><p>${this.nullCheck(this._meal.strMeasure11)} ${this.nullCheck(this._meal.strIngredient11)}</p></li>
+                                <li class="ingredients i12"><p>${this.nullCheck(this._meal.strMeasure12)} ${this.nullCheck(this._meal.strIngredient12)}</p></li>
+                                <li class="ingredients i13"><p>${this.nullCheck(this._meal.strMeasure13)} ${this.nullCheck(this._meal.strIngredient13)}</p></li>
+                                <li class="ingredients i14"><p>${this.nullCheck(this._meal.strMeasure14)} ${this.nullCheck(this._meal.strIngredient14)}</p></li>
+                                <li class="ingredients i15"><p>${this.nullCheck(this._meal.strMeasure15)} ${this.nullCheck(this._meal.strIngredient15)}</p></li>
+                                <li class="ingredients i16"><p>${this.nullCheck(this._meal.strMeasure16)} ${this.nullCheck(this._meal.strIngredient16)}</p></li>
+                                <li class="ingredients i17"><p>${this.nullCheck(this._meal.strMeasure17)} ${this.nullCheck(this._meal.strIngredient17)}</p></li>
+                                <li class="ingredients i18"><p>${this.nullCheck(this._meal.strMeasure18)} ${this.nullCheck(this._meal.strIngredient18)}</p></li>
+                                <li class="ingredients i19"><p>${this.nullCheck(this._meal.strMeasure19)} ${this.nullCheck(this._meal.strIngredient19)}</p></li>
+                                <li class="ingredients i20"><p>${this.nullCheck(this._meal.strMeasure20)} ${this.nullCheck(this._meal.strIngredient20)}</p></li>
                                 </ul>
                             </div>
                             <div class="meal-ins">
